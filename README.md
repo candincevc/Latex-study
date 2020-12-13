@@ -16,5 +16,11 @@ s
 #### 3- Insert pictures.texs
 
 
+#### result
+
+- result1.pdf: result of 1- hello world.tex
+
+- result2.pdf: result of 2- edit text.tex
+
 
 
