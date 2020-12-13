@@ -1,0 +1,70 @@
+\documentclass[12pt,letterpaper]{article}
+% 12pt:the font size, default size is 10pt
+
+%letterpaper: the paper size,default is A4
+\usepackage[utf8]{inputenc}
+% the encoding for the document
+\usepackage{comment}
+% add '\usepackage{comment}' to the preamble when use muti-line comments instead of putting a % at the beginning of each line.
+
+% use \% when you actually need to print this symbols
+
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+% the images are kept in a folder named images
+
+\title{First document}
+% the title of the document is First document
+
+\author{Hubert Farnsworth \thanks{funded by the Overleaf team}}
+
+% \author{aa}:put the names of the authors
+% thanks{}: an optional parameter;it will add a superscript and a footnote with the text inside the braces.
+\date{February 2014}
+
+\begin{document}
+
+
+\begin{titlepage}
+% declares an block of code. whatever you include in titlepage will appear in the first page of your document
+\maketitle
+% print the title,the author and the date. Without the code, your title ,author and the date will not show in the document.
+
+
+\begin{abstract}
+This is a simple paragraph at the beginning of the document. A brief introduction to the main subject.
+\end{abstract}
+% the abstract environment will put the text in a special format at the top of the document.
+
+\end{titlepage}
+
+In this document some extra packages and parameters
+were added. There is an encoding package
+and pagesize and fontsize parameters.
+
+
+This line will start a second paragraph. And I can
+ break\\ the lines \\ and continue on a new line.
+
+\begin{comment}
+This text won't show up in the compiled pdf
+this is just a multi-line comment. Useful
+to, for instance, comment out slow-rendering parts
+while working on a draft.
+\end{comment}
+
+% new paragraph:hit the 'enter' key twice
+% start a new line:\\
+
+
+\includegraphics{universe}
+% universe is the name of the file containing the image without the extension
+
+\includegraphics[scale=1.5]{lion-logo}
+% change the size of the image:scale the image 1.5 of its real size
+
+\includegraphics[width=3cm,height=4cm]{lion-logo}
+
+% sacle the image to a some specific width and height.
+
+\end{document}
