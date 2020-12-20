@@ -13,10 +13,17 @@ Guide for paper editing. In this file, you will learn:
 s
 - How to use one line comment and multi-lines comments in a latex file.
 
-#### 3- Insert pictures.texs
+#### 3- Insert pictures.tex
+
+Guide for insert pictures in a paper. In this file, you will learn:
+- How to insert picture in your documents.
+- How to edit the width and the height of the pictures.
+- How to add caption of the picture.
+- How to refer the image in your document.
+- Use bold,underline,item lists in the document.
 
 
-#### result
+#### Rsesult
 
 - result1.pdf: result of 1- hello world.tex
 

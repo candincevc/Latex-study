@@ -1,0 +1,132 @@
+% Adding math to latex
+
+\documentclass[12pt,A4]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+% Many math mode commands require the amsmath package, so be sure to include it when writing math.
+
+\title{Adding math to Latex}
+\date{2020-12-16}
+
+\begin{titlepage}
+
+\maketitle
+
+\begin{document}
+
+\textbf{1 writing modes for mathematical expressions:}
+\begin{itemize}
+    
+
+\item \underline{\textbf{the inline mode}}: be used to write formulas that are part of a text.
+
+\item \underline{\textbf{the display mode}}: be used to write expressions that are put on separate lines.
+
+\end{itemize}
+
+1.1 The inline mode
+
+In physics, the mass-energy equivalence is stated by the equation $E=mc^2$,discovered in 1905 by Albert Einstein.
+
+1.2 The displayed mode
+
+The displayed mode has two versions: numbered and unnumbered.
+
+The mass-energy equivalence is described by the famous equation
+\[E=mc^2\]
+discovered in 1905 by Albert Einstein. In natural units ($c=1$),the formula express the identity
+\begin{equation}
+    E=m
+\end{equation}
+\begin{equation}
+    E=mc*c
+\end{equation}
+
+
+\textbf{2 Other math mode commands}
+
+(1) Subscripts in math mode are written as $a_b$.
+
+(2) Superscripts are written as $a^b$.
+
+(3) Combined subscripts and superscripts
+
+\[T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q}=
+T(X^{i_1},\dots,x^{i_p},e_{j_1},\dots,e_{j_q})
+\]
+
+(4) Integrals
+
+using $\int$
+
+(5) fractions
+
+using $\frac{a}{b}$
+
+(6) limits
+
+\[\int_0^1 \frac{dx}{e^x}=\frac{e-1}{e} \]
+
+(7) geek letters
+
+$\omega$ $\delta$ $\Omega$ $\Delta$
+
+(8) mathematical operators
+
+$\sin(\beta)$ $\cos(\alpha)$ $\log(x)$
+
+
+\newpage
+
+\textbf{3 Matrices}
+
+% First, you need to import \usepackage{amsmath}
+
+(1) plain
+
+\begin{matrix}
+1 & 2 & 3 \\
+a & b & c
+\end{matrix}
+
+(2) Parentheses; round brackets
+
+\begin{pmatrix}
+1 & 2 & 3 \\
+a & b & c
+
+\end{pmatrix}
+
+
+(3) brackets;square brackets
+
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+
+(4) braces
+\begin{bmatrix}
+a & b & c \\
+1 & 2 & 3
+\end{bmatrix}
+
+(5)pipes
+
+\begin{vmatrix}
+a & b & c \\
+1 & 2 & 3
+\end{vmatrix}
+
+(6) double pipes
+
+\begin{vmatrix}
+a & b & c \\
+1 & 2 & 3
+\end{vmatrix}
+
+\end{document}
+
+\end{titlepage}
