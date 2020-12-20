@@ -20,7 +20,10 @@ Guide for insert pictures in a paper. In this file, you will learn:
 - How to edit the width and the height of the pictures.
 - How to add caption of the picture.
 - How to refer the image in your document.
+
+#### 4- add math.tex
 - Use bold,underline,item lists in the document.
+- How to add mathematical formulas in your documents.
 
 
 #### Rsesult
@@ -28,6 +31,11 @@ Guide for insert pictures in a paper. In this file, you will learn:
 - result1.pdf: result of 1- hello world.tex
 
 - result2.pdf: result of 2- edit text.tex
+
+- result3.pdf: result of 3-insert pictures.tex
+
+- result4.pdf: result of 4- add math.tex
+
 
 
 
